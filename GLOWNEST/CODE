@@ -1,0 +1,99 @@
+export default function GlowNestWebsite() { return ( <div className="min-h-screen bg-[#f7f1e8] text-[#5a4634] font-sans"> {/* Hero Section */} <section className="flex flex-col items-center justify-center text-center px-6 py-20 bg-gradient-to-b from-[#f5ead8] to-[#f7f1e8]"> <img
+src="https://placehold.co/220x220/png"
+alt="GlowNest Logo"
+className="rounded-full shadow-2xl mb-6"
+/>
+
+<h1 className="text-5xl md:text-7xl font-serif tracking-wide mb-4">
+      GlowNest
+    </h1>
+
+    <p className="text-lg md:text-2xl max-w-2xl leading-relaxed text-[#6d5846]">
+      Handmade skincare & cozy creations ✨
+    </p>
+
+    <p className="mt-3 text-base md:text-lg text-[#8b735f]">
+      Nurture Your Glow 🌿
+    </p>
+
+    <button className="mt-8 bg-[#c9a66b] hover:bg-[#b89257] text-white px-8 py-3 rounded-full shadow-lg transition-all duration-300 text-lg">
+      Shop Now
+    </button>
+  </section>
+
+  {/* Products */}
+  <section className="px-6 py-16 max-w-6xl mx-auto">
+    <h2 className="text-4xl font-serif text-center mb-12">
+      Our Products
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-8">
+      <div className="bg-white rounded-3xl p-6 shadow-lg hover:scale-105 transition-all duration-300">
+        <img
+          src="https://placehold.co/400x300/png"
+          alt="Face Pack"
+          className="rounded-2xl mb-5"
+        />
+        <h3 className="text-2xl font-semibold mb-2">GlowNest Clay Mask</h3>
+        <p className="text-[#7a6754] mb-4">
+          Handmade multani mitti face pack for a fresh & glowing feel.
+        </p>
+        <p className="font-bold text-xl">₹49</p>
+      </div>
+
+      <div className="bg-white rounded-3xl p-6 shadow-lg hover:scale-105 transition-all duration-300">
+        <img
+          src="https://placehold.co/400x300/png"
+          alt="Coffee Scrub"
+          className="rounded-2xl mb-5"
+        />
+        <h3 className="text-2xl font-semibold mb-2">Coffee Scrub</h3>
+        <p className="text-[#7a6754] mb-4">
+          Gentle handmade scrub with cozy coffee vibes.
+        </p>
+        <p className="font-bold text-xl">₹79</p>
+      </div>
+
+      <div className="bg-white rounded-3xl p-6 shadow-lg hover:scale-105 transition-all duration-300">
+        <img
+          src="https://placehold.co/400x300/png"
+          alt="Mini Art Prints"
+          className="rounded-2xl mb-5"
+        />
+        <h3 className="text-2xl font-semibold mb-2">Mini Art Prints</h3>
+        <p className="text-[#7a6754] mb-4">
+          Cozy aesthetic room decor prints made for your space.
+        </p>
+        <p className="font-bold text-xl">₹49</p>
+      </div>
+    </div>
+  </section>
+
+  {/* About */}
+  <section className="bg-[#efe4d3] px-6 py-16 text-center">
+    <h2 className="text-4xl font-serif mb-6">About GlowNest</h2>
+    <p className="max-w-3xl mx-auto text-lg leading-relaxed text-[#6d5846]">
+      GlowNest is a small handmade brand focused on cozy aesthetics,
+      self-care, skincare, and creativity. Every product is made with
+      care, warmth, and simple ingredients.
+    </p>
+  </section>
+
+  {/* Contact */}
+  <section className="px-6 py-16 text-center">
+    <h2 className="text-4xl font-serif mb-6">Contact Us</h2>
+
+    <div className="space-y-3 text-lg text-[#6d5846]">
+      <p>Instagram: @glownest</p>
+      <p>Email: glownest@example.com</p>
+      <p>DM us for orders 💌</p>
+    </div>
+  </section>
+
+  {/* Footer */}
+  <footer className="bg-[#e7d7bf] py-6 text-center text-[#6d5846]">
+    © 2026 GlowNest • Handmade with care ✨
+  </footer>
+</div>
+
+); }
